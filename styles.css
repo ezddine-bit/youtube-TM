@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: white;
+    background-color: #228B22;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #228B22;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+button {
+    display: none; /* Hide the button since it's not in the design */
+}
+
+#thumbnailResult img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
